@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agri-Input Narrative Tracker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+    <div class="container mx-auto p-8">
+        <header class="mb-8 text-center md:text-left">
+            <h1 class="text-4xl font-bold text-green-700">Agri-Input Narrative Tracker</h1>
+            <p class="text-gray-600">Last Update: 2026-02-11 21:19:33 UTC</p>
+        </header>
+
+        <section class="mb-12">
+            <h2 class="text-2xl font-semibold mb-6 border-b-2 border-green-500 pb-2">Company Status</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-green-500">
+                    <h3 class="font-bold text-xl mb-2">Nutrien (NTR)</h3>
+                    <p class="text-gray-700 text-3xl mb-2 font-mono">73.07 USD</p>
+                    <p class="text-sm font-semibold text-green-600">✅ Trading</p>
+                    <p class="text-xs text-gray-500 mt-2">52w Low: 45.35 USD</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-green-500">
+                    <h3 class="font-bold text-xl mb-2">SABIC Agri (2020)</h3>
+                    <p class="text-gray-700 text-3xl mb-2 font-mono">127.30 SAR</p>
+                    <p class="text-sm font-semibold text-green-600">✅ Trading</p>
+                    <p class="text-xs text-gray-500 mt-2">52w Low: 91.93 SAR</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-green-500">
+                    <h3 class="font-bold text-xl mb-2">Ma'aden (1211)</h3>
+                    <p class="text-gray-700 text-3xl mb-2 font-mono">73.55 SAR</p>
+                    <p class="text-sm font-semibold text-green-600">✅ Trading</p>
+                    <p class="text-xs text-gray-500 mt-2">52w Low: 37.85 SAR</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-orange-500">
+                    <h3 class="font-bold text-xl mb-2">Almarai (2280)</h3>
+                    <p class="text-gray-700 text-3xl mb-2 font-mono">42.16 SAR</p>
+                    <p class="text-sm font-semibold text-orange-600">🔥 Near Low</p>
+                    <p class="text-xs text-gray-500 mt-2">52w Low: 41.20 SAR</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-2xl font-semibold mb-6 border-b-2 border-blue-500 pb-2">"Rotation" Signals (Ratio Tracker)</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-500">
+                    <h3 class="font-bold text-lg mb-2">NTR / QQQ (Agri vs US Tech)</h3>
+                    <p class="text-gray-700 text-4xl mb-2 font-mono">0.1192</p>
+                    <p class="text-sm font-semibold text-green-600">📈 Trending Up</p>
+                    <p class="text-xs text-gray-400 mt-1">(Compared to 30 days ago)</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-500">
+                    <h3 class="font-bold text-lg mb-2">SABIC Agri / TASI (Agri vs Saudi Market)</h3>
+                    <p class="text-gray-700 text-4xl mb-2 font-mono">0.0114</p>
+                    <p class="text-sm font-semibold text-green-600">📈 Trending Up</p>
+                    <p class="text-xs text-gray-400 mt-1">(Compared to 30 days ago)</p>
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="mt-12 pt-8 border-t text-gray-500 text-center text-sm">
+            Automated via GitHub Actions. Data from Yahoo Finance.
+            <br>
+            Rotation indicators compare current price ratios to 30 days ago.
+        </footer>
+    </div>
+</body>
+</html>
