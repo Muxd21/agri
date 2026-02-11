@@ -200,9 +200,13 @@ def get_data():
 </html>
     """
 
-    with open("index.html", "w") as f:
+    # Ensure docs directory exists for GitHub Pages
+    if not os.path.exists("docs"):
+        os.makedirs("docs")
+
+    with open("docs/index.html", "w") as f:
         f.write(html_template)
-    print("Dashboard generated successfully.")
+    print("Dashboard generated successfully in docs/index.html")
 
 if __name__ == "__main__":
     get_data()
